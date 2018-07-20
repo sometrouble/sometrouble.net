@@ -1,5 +1,5 @@
 <template lang='pug'>
-h1.hello {{url}}
+p ここがメインだぞおおおおおおおおおおおおおおおおおおおおおお
 </template>
 
 <script lang='coffee'>
