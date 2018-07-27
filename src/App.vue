@@ -1,6 +1,7 @@
 <template lang='pug'>
   div#app
-    router-view
+    v-app(dark)
+      router-view
 </template>
 
 <script lang='coffee'>
@@ -8,7 +9,7 @@
 
 <style lang='scss'>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif 'Julius Sans One';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
